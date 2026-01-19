@@ -18,29 +18,29 @@
 
     If the user gives me an invalid input (ex: “hello” for stuID”, then I can check the validity of the string without getting an error
 
-    Add a student
+    1) Add a student
 
     A for loop is used to iterate over the code twice, so that another student can be added if the user selects to
 
     i is increased again if the user says no so that the for loop stops
 
-    Average of class marks
+    2) Average of class marks
 
     Average marks is calculated with %.2f for cleaner code
 
-    Minimum and maximum of class
+    3) Minimum and maximum of class
 
     Minimum and maximum is found by iterating over the ArrayList grades
 
     Variables minPlace and maxPlace are used to identify the indexes of the min and max, so that I can draw the indexes of their respective values in the other 3 ArrayLists
 
-    Display the list of students
+    4) Display the list of students
 
     Variable editRunning is used to encase most of the function in a while loop so that it can be exited by using “3) Return to Main Menu”
 
     The code allowing student data edits in inside of a while(!found) loop, which detects whether the user has entered a valid student ID
 
-    Display the mark distribution
+    5) Display the mark distribution
 
     Marks are gathered and the number of occurrences of the most frequent mark is used to determine the height of the graph
 
@@ -48,13 +48,13 @@
 
     This is done as many times as the chart would be tall
 
-    Search for a student
+    6) Search for a student
 
     The index variable is used to determine the index of the students’ name in the list that they are found in
 
     This is how the rest of their information is found
 
-    Display the top and bottom 20%
+    7) Display the top and bottom 20%
 
     First, a requirement, or req is found for the top and bottom 20%
 
@@ -68,7 +68,7 @@
 
     maxIndex and minIndex are used to find the rest of the students’ data
 
-    Exit the program
+    8) Exit the program
 
     variable running is set to false so that the infinite loop terminates
 
