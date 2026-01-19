@@ -1,18 +1,18 @@
 # ICS3U-Final-Programming-Project-CMS
 
-Geeral Format
-    Option list is given to the user, and a number 1-8 is inputted for the menu options
-    Four separate ArrayLists are used for student first and last names, student ID, and grades
-    Accessing the ArrayLists with the CMS functions will be done so by using the same index in each of these ArrayLists
-        These ArrayLists are initialized once
-    The bulk of the code is encased in a while(running) loop, which allows for easier return to the main menu
-    You will often find that user inputs are taken as strings, and this is to that they are easier to work with, and there is consistency is in code
-     - It is easier to debug with strings
-         - If the user gives me an invalid input (ex: “hello” for stuID”, then I can check the validity of the string without getting an error
-  
-   1) Add a student
-    A for loop is used to iterate over the code twice, so that another student can be added if the user selects to
-    
+## Cleaner README is on the google docs
+
+General format
+Option list is given to the user, and a number 1-8 is inputted for the menu options
+Four separate ArrayLists are used for student first and last names, student ID, and grades
+Accessing the ArrayLists with the CMS functions will be done so by using the same index in each of these ArrayLists
+These ArrayLists are initialized once
+The bulk of the code is encased in a while(running) loop, which allows for easier return to the main menu
+You will often find that user inputs are taken as strings, and this is to that they are easier to work with, and there is consistency is in code
+It is easier to debug with strings
+If the user gives me an invalid input (ex: “hello” for stuID”, then I can check the validity of the string without getting an error
+Add a student
+A for loop is used to iterate over the code twice, so that another student can be added if the user selects to
 i is increased again if the user says no so that the for loop stops
 Average of class marks
 Average marks is calculated with %.2f for cleaner code
